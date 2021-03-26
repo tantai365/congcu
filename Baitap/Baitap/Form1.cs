@@ -26,5 +26,22 @@ namespace Baitap
         {
 
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            string user = "admin";
+            string pass = "admin";
+            if (user.Equals(txtUsername.Text) && pass.Equals(txtPassword.Text))
+            {
+                MessageBox.Show("Dang nhap thanh cong");
+            }
+            else
+                MessageBox.Show("Sai tai khoan hoac mat khau");
+        }
+
+        private void txtUsername_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
