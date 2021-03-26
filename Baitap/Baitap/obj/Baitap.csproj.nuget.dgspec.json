@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tan Tai\\source\\repos\\congcu\\Baitap\\Baitap\\Baitap.csproj": {}
+    "C:\\Users\\Admin\\source\\repos\\congcu\\Baitap\\Baitap\\Baitap.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tan Tai\\source\\repos\\congcu\\Baitap\\Baitap\\Baitap.csproj": {
+    "C:\\Users\\Admin\\source\\repos\\congcu\\Baitap\\Baitap\\Baitap.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tan Tai\\source\\repos\\congcu\\Baitap\\Baitap\\Baitap.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\congcu\\Baitap\\Baitap\\Baitap.csproj",
         "projectName": "Baitap",
-        "projectPath": "C:\\Users\\Tan Tai\\source\\repos\\congcu\\Baitap\\Baitap\\Baitap.csproj",
-        "packagesPath": "C:\\Users\\Tan Tai\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tan Tai\\source\\repos\\congcu\\Baitap\\Baitap\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\source\\repos\\congcu\\Baitap\\Baitap\\Baitap.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\source\\repos\\congcu\\Baitap\\Baitap\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Tan Tai\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -30,7 +26,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -42,7 +37,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -53,6 +47,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -61,7 +61,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
